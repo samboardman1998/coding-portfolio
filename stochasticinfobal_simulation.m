@@ -1,5 +1,4 @@
 Edges = readmatrix("irvine_social_network.txt");
-% Edges = Edges + ones(size(Edges,1),size(Edges,2)); (for Gnutella06)
 E_0 = size(Edges);
 E = E_0(1,1);
 V = max(max(Edges));
